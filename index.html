@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunnydale School - Information Hub</title>
+ 
+ <style>
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+      color: #1E90FF; 
+      text-align: center;
+      background-color: #f5faff; 
+      padding: 12px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08); 
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #ffffff; 
+      line-height: 1.6;
+      color: #333; 
+    }
+
+    h2 {
+      color: #2F4F4F; 
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    h2.mission {
+    color: #32CD32;
+    }
+
+    h2.contact {
+    color: #20B2AA;
+    }
+
+    #upcoming-events {
+      color: #FFA07A;     
+      background-color: #fefbea; 
+      padding: 6px 8px; 
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    .indoor {
+      background-color: #F0F8FF; 
+      padding: 6px;
+      border: 1px solid #9caeb4;
+      margin-top: 6px;
+      border-radius: 4px;
+    }
+
+    .outdoor {
+      background-color: #E0F7F7; 
+      padding: 6px;
+      border: 1px solid #B0E0E6;
+      margin-top: 6px;
+      border-radius: 4px;
+    }
+
+    .section {
+      background-color: #f9f9f9;
+      padding: 12px;
+      margin-top: 10px;
+      border-left: 4px solid #4682B4; 
+      border-radius: 4px;
+    }
+
+    ul {
+      list-style-type: square; 
+      padding-left: 25px;
+    }
+    ul li {
+      margin: 5px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1E90FF;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #797979;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1>SUNNYDALE SCHOOL</h1>
+
+  <h2 class="mission">Mission Statement</h2>
+  <p>Our mission is to provide quality education and help students develop knowledge, skills, and good values.</p>
+
+  <h2 id="upcoming-events">Upcoming Events</h2>
+  <ul>
+    <li class="indoor" data-event-type="indoor" title="Event Type: Indoor">
+    June 10 - <span style="font-weight: bold; color: #B22222;">Science Fair <em>- indoors</em></span>
+    </li>
+    <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">
+     June 15 - <span style="font-weight: bold; color: #B22222;"> Art Exhibition <em>- outdoors</em></span>
+    </li>
+    <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">
+     June 20 - <span style="font-weight: bold; color: #B22222;">Sports Day <em>- outdoors</em></span>
+    </li>
+  </ul>
+
+  <h2 class="contact">Contact Us</h2>
+  <div class="section">
+    <p>Email: <a href="mailto:info@sunnydaleschool.edu" title="Click to copy email">info@sunnydaleschool.edu</a></p>
+    <p>Phone: <a href="tel:+1234567890" title="Click to copy phone">+1 234-567-890</a></p>
+    <p>Address: 123 Sunny Street, Sunnydale City</p>
+    <!-- Imagine clicking here shows a message: 'Thank you for reaching us out!' -->
+  </div>
+
+  <footer>
+    <p>© 2025 Sunnydale School | Made for Students, Parents, and Staff</p>
+  </footer>
+
+</body>
+</html>
